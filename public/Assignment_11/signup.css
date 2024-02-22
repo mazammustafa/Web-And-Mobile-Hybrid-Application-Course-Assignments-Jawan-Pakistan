@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conatainer {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.signup .signup-page {
+    width: 950px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    box-shadow: 0px 0px 25px black;
+}
+
+.signup .signup-page .left {
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+.signup .signup-page .left h2 {
+    text-align: center;
+    font-size: 45px;
+    width: 200px;
+    margin: auto;
+    line-height: 1.2;
+}
+
+.signup .signup-page .left .icons {
+    display: flex;
+    gap: 20px;
+    padding: 20px 55px;
+    align-items: center;
+}
+
+.signup .signup-page .left .icons i {
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    padding: 12px 16px;
+}
+
+.signup .signup-page .left input {
+    margin-bottom: 15px;
+    width: 100%;
+    background: #EEEEEE;
+    padding: 15px;
+    outline: none;
+    border: none;
+}
+
+.signup .signup-page .left p {
+    margin-bottom: 20px;
+    text-align: center !important;
+    color: rgb(37, 34, 34);
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.signup-btn {
+    background: rgb(125 42 232);
+    color: #fff;
+    width: 50%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+}
+
+.signup-btn-1 {
+    border: 2px solid white !important;
+    background: transparent;
+    color: #fff;
+    width: 35%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+}
+
+.signup .signup-page .right {
+    background: linear-gradient(to left, rgba(67, 12, 139, 0.5) 0%, rgba(99, 10, 216, 0.5) 100%);
+}
+
+.signup .signup-page .right .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    text-align: center;
+    height: 100%;
+    color: #fff;
+    font-size: 20px;
+}
+
+.signup .signup-page .right .text h1 {
+    font-size: 45px;
+    width: 330px;
+    line-height: 1.2;
+}
+
+.signup .signup-page .right .text p {
+    font-size: 20px;
+    width: 450px;
+    letter-spacing: 1px;
+
+}

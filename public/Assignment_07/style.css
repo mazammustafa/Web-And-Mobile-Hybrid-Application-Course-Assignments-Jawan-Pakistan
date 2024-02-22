@@ -1,0 +1,236 @@
+
+.titles{
+    text-align: center;
+    text-decoration: underline;
+    /* margin-top: 50px */
+}
+
+/* table css start */
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    padding: 7px 15px;
+}
+
+tr:first-child,
+.title {
+    background-color: #869960 !important;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+tr:nth-child(odd),
+#dollor-3,
+#dollor-5 {
+    background-color: #dcdcdc !important;
+}
+
+.column-1 {
+
+    width: 220px;
+}
+
+.column-2 {
+    text-align: center;
+}
+
+.column-3 {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+#total {
+    background-color: #ffffff !important;
+    text-align: right;
+    font-weight: bold;
+
+}
+
+/* table css end */
+
+/* resume css start */
+* {
+
+    margin: 0px;
+    /* padding: px;   */
+}
+.resume{
+    border: 2px solid black;
+    width: 1050px;
+    margin: auto;
+    padding: 10px;
+}
+.intro {
+    /* background-color: #869960; */
+    margin-top: 50px;
+    /* display: ; */
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    /* border: 2px solid green; */
+}
+
+.intro-container {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.intro-container .intro-right h1 {
+    font-size: 55px;
+}
+
+.intro-container .intro-right h3 {
+    font-style: italic;
+    font-size: 23px;
+}
+
+.intro-container .intro-right {
+    /* border: 2px solid #869960; */
+}
+
+.intro-container .intro-left {
+    /* border: 2px solid #869960; */
+    /* margin-left: 300px !important; */
+    margin: auto;
+
+}
+
+.intro-container .intro-left button {
+    color: #ffffff;
+    background-color: gray;
+    padding: 5px 30px;
+    border: none !important;
+}
+
+.intro-container .intro-left p {
+    color: red;
+    text-decoration: underline;
+
+}
+
+.intro-container .intro-left p+p {
+    color: black;
+    text-decoration: none;
+
+}
+
+.profie-container {
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+}
+
+.profie-container .profile-left {
+    width: 25%;
+    /* border: 2px solid red; */
+    font-style: italic;
+}
+
+.profie-container .profile-right {
+    width: 50%;
+    /* border: 2px solid blue; */
+    font-size: 25px;
+}
+
+.skills-container {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: baseline;
+}
+
+.skills-container .skills-left {
+    width: 25%;
+    /* border: 2px solid red; */
+    font-style: italic;
+}
+
+.skills-container .skills-right {
+    width: 75%;
+    /* border: 2px solid blue; */
+    font-size: 25px;
+}
+
+.technical-container {
+    display: flex;
+    align-items: baseline;
+    
+    /* justify-content: space-around; */
+    /* align-items: center; */
+}
+
+.technical-container .technical-left {
+    width: 25%;
+    /* border: 2px solid red; */
+    font-style: italic;
+}
+
+.technical-container .technical-right {
+    width: 75%;
+    /* border: 2px solid blue; */
+    font-size: 23px;
+}
+
+.box {
+    display: flex;
+}
+
+.boxs {
+    width: 30%;
+    margin-right: 40px;
+}
+
+.experi {
+    /* background-color: #869960; */
+}
+
+.experi-container {
+    /* border: 2px solid purple; */
+    display: flex;
+    align-items: baseline;
+
+}
+
+.experi-container .experi-left {
+    /* border: 2px solid red; */
+    width: 25%;
+    font-style: italic;
+
+}
+
+.experi-container .heading{
+    width: 75%;
+}
+
+.experi-container .experi-right {
+    /* border: 2px solid blue; */
+
+}
+
+.experi-container .experi-right .right-heading {
+    /* border: 2px solid blue; */
+    /* width: 75%; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+
+}
+
+.experi-container .experi-right .right-heading p {
+    font-size: 20px;
+}
+
+.experi-container .experi-right h3 {
+    font-size: 25px;
+}
+
+.experi-container .experi-right p {
+    font-size: 23px;
+}

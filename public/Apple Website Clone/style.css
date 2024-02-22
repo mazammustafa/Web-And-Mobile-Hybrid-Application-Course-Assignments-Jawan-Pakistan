@@ -1,0 +1,732 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #444444;
+}
+
+.container {
+    max-width: 1070px;
+    margin: auto;
+}
+
+.container1 {
+    max-width: 1500px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.listing {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+    list-style: none;
+}
+
+.listing li {
+    font-size: 12px;
+    font-weight: 400;
+    align-items: center;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #D1D1D1;
+    line-height: 1;
+
+}
+
+.f2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.haed {
+    display: flex;
+}
+
+.banner {
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.banner-content {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 30px 20px;
+}
+
+.banner-content h1 {
+    font-size: 45px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.banner-content h2 {
+    font-size: 25px;
+}
+
+.banner-content h3 {
+    font-size: 20px;
+}
+
+.top {
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.top h3 {
+    font-size: 20px;
+    color: #0F6FCF;
+    font-weight: 100;
+}
+
+.image img {
+    width: 90%;
+    height: 80%;
+}
+
+.banner2 {
+    background-color: #000000;
+}
+
+.banner2-content {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 30px;
+    color: white;
+}
+
+.banner2-content h1 {
+    font-size: 45px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.banner2-content h2 {
+    font-size: 25px;
+}
+
+.banner2-content h3 {
+    font-size: 20px;
+    color: #0F6FCF;
+    font-weight: 100;
+
+}
+
+.banner3 {
+    background-image: url(images/banner3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.card {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+
+}
+
+.card-line1 {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.card1 {
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* Align content to the bottom */
+    background-image: url(images/card1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    /* Add margin to separate from the bottom */
+    color: rgb(3, 3, 3);
+    /* Text color for the content */
+}
+
+
+.card2 {
+    background-image: url(images/card2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    width: 50vw;
+}
+
+.card-line2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.card3 {
+    background-image: url(images/card3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 50vw;
+}
+
+.card4 {
+    background-image: url(images/card4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    width: 50vw;
+}
+
+.card-line3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.card5 {
+    background-image: url(images/Card5.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 50vw;
+}
+
+.card6 {
+    background-image: url(images/Card6.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    color: black;
+    width: 50vw;
+}
+
+.card1 h1 {
+    font-size: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.card1 h2 {
+    font-size: 25px;
+}
+
+.card1 h3 {
+    font-size: 20px;
+    color: #0F6FCF;
+    font-weight: 100;
+
+}
+
+.card2 h1 {
+    font-size: 40px;
+    padding-top: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.card2 h2 {
+    font-size: 25px;
+}
+
+.card2 h3 {
+    font-size: 20px;
+    color: #0F6FCF;
+    font-weight: 100;
+
+}
+
+.card3 h1 {
+    font-size: 40px;
+    padding-top: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.card3 h2 {
+    font-size: 25px;
+}
+
+.card3 h3 {
+    font-size: 20px;
+    color: #0F6FCF;
+    font-weight: 100;
+}
+
+.card4 h1 {
+    font-size: 40px;
+    padding-top: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.card4 h2 {
+    font-size: 25px;
+}
+
+.card4 h3 {
+    font-size: 20px;
+    color: #0F6FCF;
+    font-weight: 100;
+
+}
+
+.card5 h1 {
+    font-size: 40px;
+    padding-top: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.card5 h2 {
+    font-size: 25px;
+}
+
+.card5 h3 {
+    font-size: 20px;
+    color: #0F6FCF;
+    font-weight: 100;
+
+}
+
+.card6 h1 {
+    font-size: 40px;
+    padding-top: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.card6 h2 {
+    font-size: 25px;
+}
+
+.card6 h3 {
+    font-size: 20px;
+    color: #0F6FCF;
+    font-weight: 100;
+
+}
+
+.footer {
+    background-color: #F5F5F7;
+}
+
+.top-footer {
+
+    font-size: 13px;
+    padding: 10px 5px;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-inline-end: 20px;
+    outline: none;
+    color: #A3A3A4;
+}
+
+.f1 i {
+    font-size: 17px;
+}
+
+.f i {
+    font-size: 12px;
+}
+
+.heading-footer {
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    margin-bottom: 0.8em;
+    margin-inline-end: 20px;
+    outline: none;
+    color: #1E1E1E;
+    list-style: none;
+
+}
+
+.middle-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.listing-c1 {
+    list-style: none;
+}
+
+.listing {
+    font-size: 12px;
+    line-height: 1.3333733333;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-bottom: 0.8em;
+    margin-inline-end: 20px;
+    outline: none;
+    color: #0000008b;
+
+}
+
+.listing-last {
+    margin-bottom: 2.5em;
+    font-size: 12px;
+    line-height: 1.3333733333;
+    letter-spacing: -0.01em;
+    list-style: none;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-inline-end: 20px;
+    outline: none;
+    color: #0000008b;
+}
+
+.middle-last {
+    margin-bottom: 16px;
+    font-size: 12px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid var(--footer-section-border-color);
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-inline-end: 20px;
+    outline: none;
+    color: #A3A3A4;
+
+}
+
+.bottom-footer {
+    padding-top: 20px;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    font-weight: 100;
+    font-size: 12px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid var(--footer-section-border-color);
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-inline-end: 20px;
+    outline: none;
+    color: #A3A3A4;
+}
+
+.bottom-footer2 {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+
+}
+
+.footer1-2 {
+    display: flex;
+    color: #444444;
+    gap: 20px;
+}
+
+/* Custom CSS to set maximum height for carousel images */
+.carousel-item img {
+    max-height: 500px;
+    /* Adjust the value as needed */
+    width: 200px;
+    /* Maintain aspect ratio */
+    margin: 0 auto;
+    /* Center the image horizontally */
+}
+
+/* Hamburger icon for large screens */
+.menu-toggle.hide-on-small {
+    display: none;
+}
+
+.menu-toggle-hide-on-large {
+    display: none;
+}
+
+/* Hamburger icon for small screens */
+@media screen and (max-width: 768px) {
+
+    .hide-on-small {
+        display: none;
+        /* Hide elements on small screens */
+    }
+
+    .menu-toggle-hide-on-large {
+        /* margin-left: 40px; */
+        display: block;
+
+    }
+
+    .f2 {
+        display: flex;
+        align-items: center;
+    }
+
+    .card-line1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-line2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-line3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .menu-toggle.hide-on-large {
+        display: block;
+        list-style: none;
+        /* Show hamburger icon on small screens */
+    }
+
+    /* Dropdown menu styles */
+    .dropdown-menu {
+        display: none;
+        list-style: none;
+        position: absolute;
+        top: 100%;
+        color: white;
+        right: 0;
+        background-color: #0e0d0d;
+        padding: 10px;
+        border: 1px solid #131212;
+        z-index: 999;
+        width: 100vw;
+        padding: 20px 10px;
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: -0.01em;
+        font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+    }
+
+    .dropdown-menu ul {
+        list-style: none;
+        /* Remove list style */
+        padding: 20px 10px;
+        /* Remove default padding */
+    }
+
+    .middle-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .listing {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 150px !important;
+        list-style: none;
+    }
+
+    .listing li {
+        padding: 0;
+    }
+
+    .footer1-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom-footer2 {
+        font-size: 10px;
+        padding: 0;
+    }
+
+    .banner-content h1 {
+        font-size: 35px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 600;
+    }
+
+    .banner-content h2 {
+        font-size: 15px;
+    }
+
+    .banner-content h3 {
+        font-size: 13px;
+        color: #0F6FCF;
+
+    }
+
+    .banner2-content h1 {
+        font-size: 35px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 600;
+    }
+
+    .banner2-content h2 {
+        font-size: 15px;
+    }
+
+    .banner2-content h3 {
+        font-size: 13px;
+        color: #0F6FCF;
+
+    }
+
+    .card h1 {
+        font-size: 40px;
+        padding-top: 40px;
+        font-weight: 600;
+        font-family: Helvetica, Arial, sans-serif;
+
+    }
+
+    .card h2 {
+        font-size: 20px;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+
+    .card h3 {
+        font-size: 15px;
+        color: #0F6FCF;
+        font-weight: 200;
+        font-family: Helvetica, Arial, sans-serif;
+
+    }
+
+    .card {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card1 {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        /* Align content to the bottom */
+        background-image: url(images/card1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+        /* Add margin to separate from the bottom */
+        color: rgb(3, 3, 3);
+        /* Text color for the content */
+    }
+
+
+    .card2 {
+        background-image: url(images/card2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        color: white;
+        width: 100vw;
+    }
+
+    .card-line2 {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .card3 {
+        background-image: url(images/card3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .card4 {
+        background-image: url(images/card4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        color: white;
+        width: 100vw;
+    }
+
+    .card-line3 {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .card5 {
+        background-image: url(images/Card5.PNG);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .card6 {
+        background-image: url(images/Card6.PNG);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100vw;
+        height: 100vh;
+        color: black;
+    }
+
+    .f2 {
+        display: flex;
+        gap: 30px;
+    }
+
+    .listing {
+        display: flex;
+        gap: 0px 200px;
+        align-items: center;
+        list-style: none;
+    }
+}
