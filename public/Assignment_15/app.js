@@ -202,3 +202,211 @@ document.write("currentAge " + currentAge + "<br />");
 document.write("Max Age" + maxAge + "<br />");
 document.write("Amount of snacks per day" + amountPerDay + "<br />");
 document.write("You will need " + totalSnacksNeeded + " " + favoriteSnack + " to last you until the ripe old age of " + maxAge + ".<br/>");
+
+// chapter 6-9
+
+document.write("<h1></h1><br />");
+
+// 1. Write a program to take a number in a variable, do the
+// required arithmetic to display the following result in your
+// browser:
+var a = 10;
+document.write("Result: <br />")
+document.write("The value of a is: ", a, "<br/>");
+document.write("---------------------------------------<br/><br/><br/>");
+
+document.write("The value of ++a is: ", ++a, "<br/>");
+document.write("Now the Value of a is: ", a, "<br/><br/><br/>");
+
+document.write("The value of a++ is: ", a++, "<br/>");
+document.write("Now the Value of a is: ", a, "<br/><br/><br/>");
+
+document.write("The value of --a is: ", --a, "<br/>");
+document.write("Now the Value of a is: ", a, "<br/><br/><br/>");
+
+document.write("The value of a-- is: ", a--, "<br/>");
+document.write("Now the Value of a is: ", a, "<br/><br/><br/>");
+
+// 2. What will be the output in variables a, b & result after
+// execution of the following script:
+// var a = 2, b = 1;
+// var result = --a - --b + ++b + b--;
+// Explain the output at each stage:
+// --a;
+// --a - --b;
+// --a - --b + ++b;
+// --a - --b + ++b + b--;
+var a = 2, b = 1;
+
+
+var res = --a;
+var resu = res - --b;
+var resul = resu + ++b;
+var result = resul + b--;
+
+document.write("a is: ", a, "<br/>");
+document.write("b is: ", b, "<br/>");
+document.write("Result: ", result, "<br/><br/>");
+
+// document.write("Stage No. 01: ", res, "<br/>");
+// document.write("Stage No. 02: ", resu, "<br/>");
+// document.write("Stage No. 03: ", resul, "<br/>");
+// document.write("Stage No. 04: ", result, "<br/>");
+
+// 3. Write a program that takes input a name from user &
+// greet the user.
+
+var name = prompt("Enter your Name", "Azam");
+alert("Hello " + name + " Welcome to our site!");
+
+// 5. Write a program to take input a number from user &
+// display it’s multiplication table on your browser. If user
+// does not enter a new number, multiplication table of 5
+// should be displayed by default.
+var table_number = +prompt("Please Enter a Number for which you want the table");
+if (table_number == "") {
+    table_number = 5;
+}
+document.write(table_number + " x 1 = " + table_number * 1 + "<br />");
+document.write(table_number + " x 2 = " + table_number * 2 + "<br />");
+document.write(table_number + " x 3 = " + table_number * 3 + "<br />");
+document.write(table_number + " x 4 = " + table_number * 4 + "<br />");
+document.write(table_number + " x 5 = " + table_number * 5 + "<br />");
+document.write(table_number + " x 6 = " + table_number * 6 + "<br />");
+document.write(table_number + " x 7 = " + table_number * 7 + "<br />");
+document.write(table_number + " x 8 = " + table_number * 8 + "<br />");
+document.write(table_number + " x 9 = " + table_number * 9 + "<br />");
+document.write(table_number + " x 10 = " + table_number * 10 + "<br />");
+
+
+// 6. Take
+// a) Take three subjects name from user and store them in 3
+// different variables.
+// b) Total marks for each subject is 100, store it in another
+// variable.
+// c) Take obtained marks for first subject from user and
+// stored it in different variable.
+// d) Take obtained marks for remaining 2 subjects from user
+// and store them in variables.
+// e) Now calculate total marks and percentage and show the
+// result in browser like this.(Hint: user table)
+
+var subject1 = prompt("Enter the name of the first subject:");
+var subject2 = prompt("Enter the name of the second subject:");
+var subject3 = prompt("Enter the name of the third subject:");
+
+var totalMarksOfEachSubject = 100;
+
+var obtainedMarks1 = Number(prompt("Enter obtained marks for " + subject1 + ":"));
+
+var obtainedMarks2 = Number(prompt("Enter obtained marks for " + subject2 + ":"));
+var obtainedMarks3 = Number(prompt("Enter obtained marks for " + subject3 + ":"));
+
+var totalObtainedMarks = obtainedMarks1 + obtainedMarks2 + obtainedMarks3;
+var totalPercentage = (totalObtainedMarks / (totalMarksOfEachSubject * 3)) * 100;
+
+document.write("<h2>Result</h2>");
+document.write("<table>");
+document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th></tr>");
+document.write("<tr><td>" + subject1 + "</td><td>" + totalMarksOfEachSubject + "</td><td>" + obtainedMarks1 + "</td><td>" + (obtainedMarks1 / totalMarksOfEachSubject) * 100 + "%</td></tr>");
+document.write("<tr><td>" + subject2 + "</td><td>" + totalMarksOfEachSubject + "</td><td>" + obtainedMarks2 + "</td><td>" + (obtainedMarks2 / totalMarksOfEachSubject) * 100 + "%</td></tr>");
+document.write("<tr><td>" + subject3 + "</td><td>" + totalMarksOfEachSubject + "</td><td>" + obtainedMarks3 + "</td><td>" + (obtainedMarks3 / totalMarksOfEachSubject) * 100 + "%</td></tr>");
+document.write("<tr><td><b>Total</b></td><td><b>" + (totalMarksOfEachSubject * 3) + "</b></td><td><b>" + totalObtainedMarks + "</b></td><td><b>" + (totalObtainedMarks / (totalMarksOfEachSubject * 3)) * 100 + "%</b></td></tr>");
+document.write("</table>");
+
+// HOME WORK
+// 1. Code a short form of x = x + 1; Use either of the two legal
+// expressions.
+var a = a + 1;
+a++;
+a += 1;
+
+// 2. If x has a value of 100, what is the fastest way to reduce it to 99
+// with a math expression?
+
+var x = 100;
+x = x - 1;
+// --x;
+// x -= 1;
+
+document.write(x, "<br/><br />");
+
+// 3. var x = 50; var y = x++;
+// What is the value of y?
+
+var x = 50;
+var y = x++;
+document.write("The value of  y is :" + y, "<br/>");
+
+// y = 50;
+var z = --y;
+document.write("The value of z is : " + z, "<br/>");
+
+// 5. In a single statement, decrement num and assign its original value
+// to newNum.
+
+var num = 11;
+var newNum = num--;
+
+
+// 6. In a single statement add 1 to a variable and assign its original
+// value to another variable.
+
+var originalValue = 89;
+var newValue = ++originalValue;
+
+// 7. Assign a number value to a variable. Increment the variable.
+// Display the new value in an alert
+var number = 5;
+alert("New value: " + (++number));
+
+// 1. var calculatedNum = 2 + (2 * 6); What
+// is the value of calculatedNum?
+var calculatedNum = 2 + (2 * 6);
+document.write("<br />calculatedNum=" + calculatedNum + "<br/>");
+
+// 2. var
+// calculatedNum = (2 + 2) * 6; What is the
+// value of calculatedNum?
+calculatedNum = (2 + 2) * 6;
+document.write("calculatedNum=" + calculatedNum + "<br/>");
+
+// 3. var calculatedNum = (2 + 2) * (4 + 2);
+// What is the value of calculatedNum?
+var calculatedNum = (2 + 2) * (4 + 2);
+document.write("calculatedNum=" + calculatedNum + "<br/>");
+
+// var calculatedNum = ((2 + 2) * 4) + 2;
+// What is the value of calculatedNum?
+var calculatedNum = ((2 + 2) * 4) + 2;
+document.write("calculatedNum=" + calculatedNum + "<br/>");
+
+// Note: Try all the above equations yourself.
+// 5. Write a statement that assigns to cost the result of 2 + 2 * 4 + 10,
+// clarified with parentheses, producing 56.
+
+var cost = (2 + 2) * (4 + 10);
+document.write("<br />cost=" + cost + "<br/>");
+
+// 6. Write a statement that assigns to units the result of 2 + 2 * 4 + 10,
+// clarified with parentheses, producing 20.
+var units = 2 + (2 * 4) + 10;
+document.write("cost=" + units + "<br/>");
+
+// 7. Write a statement that assigns to pressure the result of 4 / 2 * 4,
+// clarified with parentheses, producing 5.
+var pressure = (4 / (2 * 4)) * 10;
+document.write("Pressure=" + pressure + "<br><br>");
+
+
+// var num = &quot;2&quot; + &quot;2&quot;;
+// What is the value of num? Include quotation marks.
+var num = "2" + "2";
+document.write(num + "<br>");
+
+var message = ("'Hello'," + "'Dolly'");
+alert(message); // This will display an alert with the message "Hello,Dolly"
+
+// alert(&quot;33&quot; + 3);
+// What message displays in the alert box?
+alert("33" + 3);
