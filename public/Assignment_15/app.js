@@ -410,3 +410,55 @@ alert(message); // This will display an alert with the message "Hello,Dolly"
 // alert(&quot;33&quot; + 3);
 // What message displays in the alert box?
 alert("33" + 3);
+
+// 4. Write an alert that displays the concatenation of the two parts of
+// &quot;Pakistan Zindabad&quot;.
+alert("Pakistan " + "Zindabad");
+
+// 5. Write a statement that assigns to a variable the concatenation of
+// a string with a number
+var countryName = "Pakistan";
+document.write(countryName + 1947, "<br />");
+
+// 6. Assign strings to two variables. Then concatenate them and assign
+// the result to a third variable.
+var firstVariable = "I am from ";
+var secondVariable = "Pakistan.";
+var thirdVariable = firstVariable + secondVariable;
+document.write(thirdVariable + "<br />");
+
+// Chapter 9 (Prompts)
+// 1. Code a prompt with the message &quot;Enter first name&quot;. The user&#39;s
+// response is assigned to firstName.
+var firstName = prompt("Enter your First Name");
+
+// 2. Code a prompt with the message &quot;Country?&quot; and the default
+// answer &quot;China&quot;. The user&#39;s response is assigned to country.
+var country = prompt("Where are you from?", "China");
+
+// 3. Correct this statement var yourName = prompt(Enter Your
+//     Name&quot;);
+var yourName = prompt("Enter Your Name");
+
+// 4. Code a prompt that specifies a string as the message Include a
+// default input.
+var userInput = prompt("Enter your message", "HELLO WORLD");
+document.write(userInput + "<br />");
+
+// Assign strings to two variables. Code a prompt specifying the first
+// variable as the message and the second variable as the default
+// response. Assign the user's response to a third variable.
+var firstVariable = "Please enter your name:";
+var secondVariable = "Muhammad Azam Mustafa";
+var userResponse = prompt(firstVariable, secondVariable);
+document.write("User's response:", userResponse);
+
+// Display a prompt, including both a message and a default
+// response.
+// Display the user&#39;s response in an alert.
+let message = "Please enter your name:";
+let defaultResponse = "Muhammad Azam Mustafa";
+let userResponse = prompt(message, defaultResponse);
+alert("User's response: " + userResponse);
+
+
