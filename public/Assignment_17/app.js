@@ -275,3 +275,175 @@ for (let i = 5; i <= 100; i += 5) {
     document.write(`${i} `);
 }
 
+var password = prompt("Please enter your password:");
+if (password !== "") {
+    if (password.length >= 5) {
+        alert("Password must be greater than 5");
+    } else {
+        alert("ok");
+    }
+} else {
+    alert("empty");
+}
+
+//
+// var a = 1; 
+var c = "max"; 
+
+if (a === 1) {
+    if (c === "max") {
+        alert("OK");
+    }
+} else {
+    alert("Azam Mustafa");
+}
+//
+if (a === 1 && c === "Max") {
+    alert("ok")
+}
+//
+var a = 2;
+var b = 2;
+
+if(a !== b){
+    if(a<=b){
+        alert("it is equal")
+    }
+    else {
+        alert ("not equal")
+    }
+}
+
+//
+var emptyarr = []
+var onestring = ["Azam Mustafa"]
+//
+var alphabet = ["h","i","j","k"];
+
+alert(alphabet[2]);
+//
+var alphabet = ["h","i","j","k","L","M","n","o","p"];
+document.write(`${alphabet.length} <br>`)
+//
+var mArray = ["first Element"];
+
+mArray[1] = "second Element";
+
+alert(mArray[1]);
+
+//
+var myarray = ["Azam Mustafa"]
+ myarray.push("last element")
+
+document.write(`${myarray[myarray.length-1]}<br>`)
+//
+var alphabet2 = ["h","i","j","k"];
+alphabet2.pop()
+document.write(`${alphabet2}<br>`)
+//
+var alphabet3= ["h","i","j","k"];
+alphabet3.push(5)
+document.write(`${alphabet3}<br>`)
+//
+var sizes = ["S", "M", "XL", "XXL", "XXXL"];
+sizes.shift()
+document.write(`${sizes}<br>`)
+//
+
+var sizes1 = ["<br>","S", "M", "XL", "XXL", "XXXL"];
+sizes1.unshift(1,2,3);
+document.write(`${sizes1}<br>`)
+//
+var elementarr = ["one element"]
+elementarr[1]="secound element";
+document.write(elementarr[elementarr.length-1])
+//
+
+var sizes4 = ["S", "M", "XL", "XXL", "XXXL"];
+ sizes4.splice(2,0,"L")
+document.write(`${sizes4}<br>`)
+//
+var sizes5 = ["S", "M", "XL", "XXL", "XXXL"];
+var regsizes = sizes5.slice(0,3)
+document.write(`${regsizes} <br>`)
+//
+var pets = ["dog", "cat", "ox", "duck", "frog"];
+pets.splice(1,3,"tiger","monkey")
+document.write(`${pets} <br>`);
+//
+var pets = ["dog", "cat", "ox", "duck", "frog"];
+pets.splice(1,2)
+document.write(`${pets} <br>`);
+//
+var pets1 = ["dog", "cat", "ox", "duck", "frog", "flea"];
+pets.slice(3,4)
+document.write(`${pets1} <br>`)
+
+// 1. A loop that runs 10 times
+for (var i = 0; i < 10; i++) {
+    document.write("Loop 1 iteration:", i, "<br>");
+}
+
+// 2. A loop that runs 12 times using `<=`
+for (var i = 0; i <= 11; i++) {
+    document.write("Loop 2 iteration:", i, "<br>");
+}
+
+// 3. A loop with a counter name that's not `i`, running 100 times
+for (var j = 0; j < 100; j++) {
+    document.write("Loop 3 iteration:", j, "<br>");
+}
+
+
+for (var i = 2; i >= 0; i--) {
+    document.write("Loop 4 iteration:", i, "<br>");
+}
+var flag = true; // Set a boolean flag
+
+// Loop limited by the number of elements in the array `pets`
+for (var i = 0; i < pets.length; i++) {
+}
+
+// For loop for a specific action on the second iteration
+for (var i = 0; i < 10; i++) {
+    if (i === 1) {
+        alert(i); // Alerts "1"
+        break; // Exits the loop
+    }
+}
+
+// Array of usernames and prompt interaction
+var userNames = ["user1", "user2", "user3"]; // Example usernames
+var firstName = prompt("Enter first name");
+
+for (var i = 0; i < userNames.length; i++) {
+    if (firstName === userNames[i]) {
+        alert("Enter");
+        break;
+    } else if (i === userNames.length - 1) {
+        alert("Please write the correct user name");
+    }
+}
+
+// Check for match in an array
+var matchFound = false;
+for (var i = 0; i < list.length; i++) {
+    if (userInput === list[i]) {
+        alert("Match found");
+        matchFound = true;
+        break;
+    }
+}
+if (!matchFound) {
+    alert("No match found");
+}
+
+// Nested loops for concatenating elements from two arrays
+var firstArr = ["a", "b", "c", "d", "e", "f"];
+var secondArr = [1, 2, 3, 4, 5, 6];
+
+for (var i = 0; i < firstArr.length; i++) {
+    for (var j = 0; j < secondArr.length; j++) {
+        document.write(firstArr[i] + secondArr[j]);
+    }
+}
