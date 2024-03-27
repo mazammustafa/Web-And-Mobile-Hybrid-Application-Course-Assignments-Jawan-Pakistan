@@ -272,6 +272,6 @@ document.write(`Smallest number: ${Math.min(...numbers)} <br>`);
 // 100.
 document.write(`Multiple of 5:`);
 for (let i = 5; i <= 100; i += 5) {
-    document.write(`${i}, `);
+    document.write(`${i} `);
 }
 
