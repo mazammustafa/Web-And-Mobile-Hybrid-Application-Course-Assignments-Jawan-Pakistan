@@ -18,7 +18,9 @@ h1 {
 }
 
 h2 {
-    text-align: center;
+    /* text-align: ; */
+    text-transform: uppercase;
+    padding-left: 50px;
 }
 
 ol {
@@ -26,7 +28,7 @@ ol {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
-    padding: 50px;
+    padding: 10px 50px 50px;
 }
 
 ol>li {
