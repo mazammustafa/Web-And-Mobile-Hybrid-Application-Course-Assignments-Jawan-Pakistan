@@ -40,6 +40,8 @@ ol>li {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
+    transition: transform .2s ease-in;
+    transform: scale(1);
 }
 
 ul {
@@ -49,11 +51,21 @@ ul {
 
 ol>li:hover {
     box-shadow: inset 4px 2px 4px gray, inset -2px -4px 4px gray;
+    transform: scale(.97);
+
 }
 
 a {
     text-decoration: none;
     font-size: 14px;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
 }
 
 .footer .footer-bottom {
