@@ -168,8 +168,9 @@ for (var i = 0; i < A.length; i++) {
         itemFound = true;
         document.write(`${searchItem} is availabe  at index ${i} in our Bakery.`);
         break;
-    }else{
-    document.write("The item '" + searchItem + "' is not found in the list.");}
+    } else {
+        document.write("The item '" + searchItem + "' is not found in the list.");
+    }
 }
 
 // 16. Write a program to convert the following string to an
@@ -177,14 +178,67 @@ for (var i = 0; i < A.length; i++) {
 // var university = “University of Karachi”;
 // Display the elements of array in your browser.
 
- // The string to convert
- var university = "University of Karachi";
+// The string to convert
+var university = "University of Karachi";
 
- // Convert the string to an array using the split method
- var universityArray = university.split(" ");
+// Convert the string to an array using the split method
+var universityArray = university.split(" ");
 
- // Display the elements of the array in the browser
- document.write("The elements of the array are:<br>");
- for (var i = 0; i < universityArray.length; i++) {
-    document.write(universityArray[i]  + "<br>");
- }
+// Display the elements of the array in the browser
+document.write("The elements of the array are:<br>");
+for (var i = 0; i < universityArray.length; i++) {
+    document.write(universityArray[i] + "<br>");
+}
+
+var text = "The quick brown fox jumps over the lazy dog";
+    
+    // Initialize a counter for the occurrences of "the"
+    var count = 0;
+    
+    // Split the string into an array of words
+    var words = text.split(" ");
+    
+    // Iterate through each word in the array
+    for (var i = 0; i < words.length; i++) {
+        // Check if the word is "the" (ignoring case)
+        if (words[i].toLowerCase() === "the") {
+            count++; // Increment the counter
+        }
+    }
+    
+    // Display the count
+    alert("The word 'the' appears " + count + " times in the given string.");
+
+
+
+//  Write a program to display the last character of a user
+// input.
+
+var Input = "Pakistan";
+
+// Check if the input is not empty
+document.write(Input + "<br/>")
+// Display the last character of the input
+document.write("The last character of your input is: " + Input[Input.length - 1]);
+
+// 1. Type the characters that are missing from this code. var allLower =
+// userInput.toLowerCase; Note: Correct this statement by yourself.
+
+var allLower = userInput.toLowerCase();
+
+
+// 2. Convert the string represented by x to lower-case and assign the result to
+// the same variable.
+ var x = x.toLowerCase();
+
+//  3. Convert the string represented by y to upper-case and assign the result to
+//  the same variable.
+
+var y = y.toUpperCase();
+
+// 4. Convert the string represented by a variable to lower-case and assign the
+// result to a second variable that hasn&#39;t been declared beforehand.
+
+var originalString = "Hello, World";
+var lowerCaseString = originalString.toLowerCase();
+console.log(lowerCaseString);
