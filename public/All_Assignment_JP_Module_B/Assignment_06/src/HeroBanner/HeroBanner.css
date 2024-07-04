@@ -27,21 +27,3 @@
     max-width: 60%;
     width: 100%;
 }
-
-.banner .banner-wrapper .banner-content button{
-background: transparent;
-border: 2px solid hsla(0, 0%, 100%, .3);
-border-radius: 6px;
-color: #fff;
-display: inline-block;
-font-size: 16px;
-font-weight: 600;
-line-height: 20.11px;
-padding: 15px 35px;
-transition: all .5s ease 0s;}
-
-.banner .banner-wrapper .banner-content button:hover{
-background: #d2093c;
-border-color: #d2093c;
-color: #fff;
-}

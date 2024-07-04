@@ -1,5 +1,6 @@
 import React from 'react'
 import './HeroBanner.css'
+import Button from '../Button/Button'
 
 const HeroBanner = () => {
   return (
@@ -10,7 +11,8 @@ const HeroBanner = () => {
             <div className="banner-content">
               <p>Great Quality Cocial life</p>
               <h2>Discover the world of possible university.</h2>
-              <button>Get Started</button>
+              {/* <button>Get Started</button> */}
+              <Button/>
             </div>
           </div>
         </div>

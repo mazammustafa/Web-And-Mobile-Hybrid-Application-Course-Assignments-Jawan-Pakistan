@@ -5,6 +5,8 @@ import './App.css'
 import Navbar from './Navbar/Navbar'
 import HeroBanner from './HeroBanner/HeroBanner'
 import Academics from './Academics/Academics'
+import LmsPlatform from './LmsPlatform/LmsPlatform'
+import Button from './Button/Button'
 
 function App() {
 
@@ -13,6 +15,9 @@ function App() {
     <Navbar />
     <HeroBanner />
     <Academics />
+    
+    <LmsPlatform />
+    {/* <Button /> */}
     </>
   )
 }
