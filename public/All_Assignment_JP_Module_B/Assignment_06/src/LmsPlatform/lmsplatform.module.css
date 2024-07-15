@@ -9,6 +9,32 @@
     display: flex;
 }
 
+.lmsplatform .lmsplatformContent .left {
+    position: relative;
+}
+
+.lmsplatform .lmsplatformContent .left .img2 {
+    border: 2px solid red;
+    position: absolute;
+    right: 12.5%;
+    top: 28%;
+    object-fit: cover;
+    z-index: 0;
+    animation: slide-top 5s linear infinite alternate;
+}
+
+@keyframes slide-top {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(-100px);
+        transform: translateY(-100px);
+    }
+}
+
 .lmsplatform .lmsplatformContent .right {
     padding: 60px 0 0 60px;
 }
@@ -42,9 +68,10 @@
     margin-bottom: 26px;
 }
 
-.lmsplatform .lmsplatformContent .right .btnWithSupport{
+.lmsplatform .lmsplatformContent .right .btnWithSupport {
     display: flex;
-
+    gap: 25px;
+    align-items: center;
 }
 
 .lmsplatform .lmsplatformContent .right .btnWithSupport button {
@@ -53,6 +80,25 @@
 
 }
 
-.support {
-    
+.lmsplatform .lmsplatformContent .right .btnWithSupport button:hover {
+    color: #fff;
+    border: 2px solid #d2093c;
+}
+
+.lmsplatform .lmsplatformContent .right .btnWithSupport .support {
+    position: relative;
+    padding-left: 70px;
+}
+
+.lmsplatform .lmsplatformContent .right .btnWithSupport .support::before {
+    content: url('../assets/img/commentImg.png');
+    position: absolute;
+    top: -10px;
+    left: 0;
+    /* margin-left: 20px;
+    margin-top: 5px; */
+}
+
+.support em {
+    display: block;
 }

@@ -1,11 +1,14 @@
 import React from 'react'
-import "./Button.module.css"
+import styles from "./Button.module.css"
 
 const Button = () => {
   return (
-    <div>
+    <>
+      
+    <div className={styles.Cbtn} id='btn'>
       <button>Get Started</button>
     </div>
+    </>
   )
 }
 

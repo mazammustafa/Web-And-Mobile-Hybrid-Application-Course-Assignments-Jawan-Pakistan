@@ -3,13 +3,16 @@ import styles from "./lmsplatform.module.css"
 import Button from '../Button/Button'
 // import './index.css'
 
+
 const LmsPlatform = () => {
     return (
         <div>
             <div className={styles.lmsplatform}>
                 <div className={styles.container}>
                     <div className={styles.lmsplatformContent}>
-                        <div className={styles.left}><img src="https://echooling-react.vercel.app/static/media/ab.fcda2469b98ffc37a148.png" alt="" /></div>
+                        <div className={styles.left}><div className={styles.img1}><img src="https://echooling-react.vercel.app/static/media/ab.fcda2469b98ffc37a148.png" alt="" /></div>
+                            <div className={styles.img2}><img src="https://echooling-react.vercel.app/static/media/badge.ae149076478c64c7b217.png" alt="" /></div>
+                        </div>
                         <div className={styles.right}>
                             <h1><span>Welcome to </span> <br />
                                 Echooling LMS Platform</h1>

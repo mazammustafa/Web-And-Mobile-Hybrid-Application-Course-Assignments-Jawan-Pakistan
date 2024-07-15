@@ -1,0 +1,127 @@
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: auto;
+    border: 2px solid red;
+}
+
+.campusLife {
+    padding: 100px 0;
+    background-color: #F5F5F5;
+}
+
+.campusLife .campusLifeContent h2 {
+    color: #00306e;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 54px;
+    margin: 0;
+    text-align: center;
+}
+
+.campusLife .campusLifeContent .headingAfterImg {
+    text-align: center;
+    margin-right: 120px;
+}
+
+.campusLife .campusLifeContent .CampusLifeWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.campusLife .campusLifeContent .CampusLifeWrapper .left {
+    border: 2px solid blue;
+    max-width: 60%;
+    width: 100%;
+    padding: 50px 60px;
+    background: #fff;
+    margin-right: 15px;
+    /* padding: 0 1rem; */
+}
+
+.campusLife .campusLifeContent .CampusLifeWrapper .left ul li {
+
+    align-items: center;
+    border-top: 1px solid #ededed;
+    display: flex;
+    padding: 30px 0;
+
+}
+
+.campusLife .campusLifeContent .CampusLifeWrapper .left ul li a {
+    border: 2px solid #ededed;
+    border-radius: 50%;
+    height: 44px;
+    line-height: 36px;
+    text-align: center;
+    width: 44px;
+}
+
+.campusLife .campusLifeContent .CampusLifeWrapper .left ul li a:hover {
+    background: #00306e;
+    color: #fff;
+    transition-duration: .5s;
+}
+
+.campusLife .campusLifeContent .CampusLifeWrapper .left ul li a svg {
+    /* color: #00306e; */
+    width: 18px;
+}
+
+.campusLife .campusLifeContent .CampusLifeWrapper .left ul li:first-child {
+    border-top: none;
+}
+
+.campusLife .campusLifeContent .CampusLifeWrapper .left ul li .icon img {
+    margin-top: -50px;
+}
+
+.campusLife .campusLifeContent .CampusLifeWrapper .left ul li .text {
+    flex: 1 1;
+}
+
+.campusLife .campusLifeContent .CampusLifeWrapper .left ul li .text h4 {
+    color: #00306e;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    margin: 0 0 14px;
+}
+
+.campusLife .campusLifeContent .CampusLifeWrapper .left ul li .text p {
+    color: #4d5765;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+}
+
+.campusLife .campusLifeContent .CampusLifeWrapper .right {
+    position: relative;
+    border: 2px solid green;
+    max-width: 40%;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.campusLife .campusLifeContent .CampusLifeWrapper .right .shape1 {
+    position: absolute;
+    right: 5px;
+    bottom: 90px;
+}
+
+.campusLife .campusLifeContent div  {
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+.campusLife .campusLifeContent div  button{
+    color: #00306e;
+    border: 2px solid #00306e;
+}
+
+.campusLife .campusLifeContent div  button:hover{
+    color: #fff;
+    border: 2px solid #d2093c;
+}
